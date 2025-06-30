@@ -75,6 +75,18 @@ Regression scatter plot showing model fit.
 
 ---
 
+## 🚧 Need for Improvement
+
+While the current model achieves a baseline performance with a **R² score of 0.4563** and **RMSE of ₹2.14L**, there are several areas where this project can be improved:
+
+- 🔁 **Model Performance**: The R² score indicates underfitting. More robust algorithms like **Random Forest**, **XGBoost**, or **Gradient Boosting** can be introduced for better predictions.
+- 🧠 **Advanced Feature Engineering**: Adding interaction terms, polynomial features, or domain-specific derived metrics may help improve model learning.
+- 📉 **Outlier Detection**: Removing extreme price values or applying transformation (like log-scaling) could improve linear model behavior.
+- ⚙️ **Hyperparameter Tuning**: Ridge and Lasso models can be tuned further using GridSearchCV or cross-validation.
+- 📊 **Cross-Validation**: Currently, the model is evaluated on a single train-test split. Including k-fold cross-validation will ensure better generalization.
+
+> ✅ These enhancements would help push the model beyond baseline and make it more suitable for real-world deployment.
+
 ## 📂 File Structure
 ```
 ├── House_Price_Prediction.ipynb        # Main notebook
