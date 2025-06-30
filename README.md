@@ -58,10 +58,12 @@ Visualizes correlation between each feature and the target price.
 
 ![Correlation Heatmap](images/corr_heatmap.png)
 
+
 ### 📈 Predicted vs Actual Prices
 Regression scatter plot showing model fit.
 
 ![Linear Regression](images/Linear_Regression.png)
+
 
 ---
 
